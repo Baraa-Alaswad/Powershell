@@ -1,39 +1,51 @@
-# Project Name
+# Active Directory User Creation Tool
 
 ## Description
-Short description of what the project does and why it exists.
+This project is a PowerShell GUI tool that automates user creation in Active Directory.  
+It generates usernames, creates email addresses, and assigns users to the correct Organizational Unit (OU) and security groups.
 
 ## Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Generate unique sAMAccountName (User ID)
+- Automatically generate email addresses
+- Check if username and email already exist in Active Directory
+- Create users in the correct OU based on department
+- Add users to the corresponding AD security group
+- Windows Forms graphical user interface (GUI)
 
 ## Technologies
-- Language / Framework
-- Libraries
-- Tools
+- PowerShell
+- .NET Windows Forms
+- Active Directory PowerShell Module
 
 ## Installation
-1. Step 1
-2. Step 2
-3. Step 3
+1. Download the project files
+2. Open PowerShell as Administrator
+3. Ensure the Active Directory module is installed
+4. Run the script
 
 ## Usage
-1. How to run the project
-2. How to use the main features
+1. Enter First Name and Surname
+2. Click "Get Id" to generate username and email
+3. Select the Department
+4. Click "Create User"
+5. The user is created in Active Directory
 
 ## Configuration
-- Config 1
-- Config 2
+- Default email domain: `@ehbalpha.be`
+- OU names must match your Active Directory structure
+- Default password is hardcoded and should be changed
 
 ## Requirements
-- OS
-- Software
-- Permissions
+- Windows OS
+- Active Directory environment
+- Admin permissions to create users
+- PowerShell 5.1 or higher
 
 ## Notes
-- Important notes
-- Warnings
+- Test the script in a lab environment before production use
+- Improve security by changing the default password handling
+- Logging can be added for enterprise usage
 
 ## Author
-Your name or role
+System and Network Engineering Student
+
