@@ -1,63 +1,39 @@
-User Creation Tool (PowerShell)
-Overview
+# Project Name
 
-This project is a PowerShell GUI tool used to create new users in Active Directory.
-It helps IT administrators generate user IDs, create email addresses, and automatically add users to the correct Organizational Unit (OU) and security group.
+## Description
+Short description of what the project does and why it exists.
 
-The tool is made to simplify the user creation process and reduce manual errors.
+## Features
+- Feature 1
+- Feature 2
+- Feature 3
 
-What This Project Does
+## Technologies
+- Language / Framework
+- Libraries
+- Tools
 
-Generates a unique user ID (sAMAccountName) based on first name and surname
+## Installation
+1. Step 1
+2. Step 2
+3. Step 3
 
-Generates an email address automatically
+## Usage
+1. How to run the project
+2. How to use the main features
 
-Checks if the user ID or email already exists in Active Directory
+## Configuration
+- Config 1
+- Config 2
 
-Creates the user in the correct OU based on the selected department
+## Requirements
+- OS
+- Software
+- Permissions
 
-Adds the user to the corresponding Active Directory group
+## Notes
+- Important notes
+- Warnings
 
-Shows a graphical interface (GUI) for easy use
-
-Technologies Used
-
-PowerShell
-
-.NET Windows Forms (System.Windows.Forms, System.Drawing)
-
-Active Directory PowerShell module
-
-How It Works
-
-Enter the user's First Name and Surname
-
-Click Get Id to generate a username and email
-
-Select the Department/Section
-
-Click Create User
-
-The script creates the user in Active Directory and shows a confirmation window
-
-Requirements
-
-Windows with PowerShell
-
-Active Directory module installed
-
-Permission to create users in Active Directory
-
-Run the script as Administrator
-
-Notes
-
-Default password is hardcoded in the script (should be changed in production)
-
-Email domain is currently set to @ehbalpha.be
-
-OU and group names must match your Active Directory structure
-
-Author
-
-This project was created as an automation tool for system and network administration.
+## Author
+Your name or role
